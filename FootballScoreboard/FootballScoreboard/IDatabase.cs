@@ -10,11 +10,13 @@
 		void SetGame(Game game);
 
 		/// <summary>
-		/// Returns a game based on 
+		/// Returns the game between the teams provided if it exists.
 		/// </summary>
-		/// <throws></throws>
 		Game GetGame(string homeTeam, string awayTeam);
-	
+
+		/// <summary>
+		/// Removes the game between the teams provided.
+		/// </summary>
 		void RemoveGame(string homeTeam, string awayTeam);
 	}
 }
